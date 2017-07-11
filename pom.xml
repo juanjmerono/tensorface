@@ -12,7 +12,7 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <exec.mainClass>org.machine.learning.tensorface.Analyze</exec.mainClass>
+    <exec.mainClass>org.machine.learning.tensorface.Classify</exec.mainClass>
     <!-- The sample code requires at least JDK 1.7. -->
     <!-- The maven compiler plugin defaults to a lower version -->
     <maven.compiler.source>1.7</maven.compiler.source>
