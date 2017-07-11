@@ -3,13 +3,13 @@ TensorFlow face recognition experiment. You can train your model using tensorflo
 
 ## How to use the trained model:
 
-- Create a "tests" folder to test the model.
+- Create "tests" folder to test the model.
 - Add "good" and "bad" folders with jpg images inside "tests" folder.
 - Run: ```mvn test```
 
 ## How to train your own model:
 
-- Create a "images" folder to train the model.
+- Create "images" folder to train the model.
 - Add one folder inside "images" for each category you want to classify with jpg images on it.
 - Run docker image:
 ```docker run -it -p 8888:8888 -p 6006:6006 -v ${PWD}:/tf_files --workdir /tf_files floydhub/dl-docker:cpu bash```
