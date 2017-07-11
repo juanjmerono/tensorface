@@ -5,7 +5,7 @@ TensorFlow face recognition experiment
 
 - Create a "tests" folder to test the model.
 - Add "good" and "bad" folders with jpg images inside "tests" folder.
-- Run: ```mvn test````
+- Run: ```mvn test```
 
 ## How to train your own model:
 
