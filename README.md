@@ -1,5 +1,5 @@
 # TensorFace
-TensorFlow face recognition experiment
+TensorFlow face recognition experiment. You can train your model using tensorflow docker images with python and use the trained model with java later.
 
 ## How to use the trained model:
 
